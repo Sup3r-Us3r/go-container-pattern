@@ -1,0 +1,8 @@
+POST http://localhost:3333/installment HTTP/1.1
+content-type: application/json
+
+{
+  "id": "1",
+  "value": 10.10,
+  "due_day": 30
+}
